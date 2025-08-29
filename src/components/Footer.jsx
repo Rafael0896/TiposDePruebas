@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer className="footer-section">
             <div className="footer-content">
-                <p>&copy; {currentYear} Blockchain Explained. Todos los derechos reservados.</p>
+                <p>&copy; {currentYear} Todos los derechos reservados.</p>
                 <div className="footer-socials">
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link">Twitter</a>
                     <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
