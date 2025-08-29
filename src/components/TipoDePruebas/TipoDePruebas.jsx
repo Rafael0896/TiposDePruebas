@@ -8,7 +8,7 @@ const TipoDePruebas = () => {
         <div className={styles.container}>
             {/* 3. Eliminamos los estilos en línea y usamos clases del módulo */}
             <h1 className={styles.mainTitle}>
-                Taller Sobre Codificación De Módulos Del Software
+                Tipo de Pruebas
             </h1>
 
             <h2 className={styles.sectionTitle}>
