@@ -4,15 +4,14 @@ import styles from "./TipoDePruebas.module.css";
 
 const TipoDePruebas = () => {
     return (
-        // 2. Usamos la clase 'container' del objeto 'styles'
+
         <div className={styles.container}>
-            {/* 3. Eliminamos los estilos en línea y usamos clases del módulo */}
             <h1 className={styles.mainTitle}>
-                Tipo de Pruebas
+                Tipos de Pruebas de Software
             </h1>
 
             <h2 className={styles.sectionTitle}>
-                ¿Qué tipos de pruebas de software existen? Explique sus características y beneficios.
+                Características, beneficios y ejemplos de cada tipo de prueba
             </h2>
 
             <p>
@@ -153,19 +152,19 @@ const TipoDePruebas = () => {
             <h2 className={styles.sectionTitle}>Actividades</h2>
             <ol>
                 <li>
-                    Según la consulta que realizó, ¿qué tipos de pruebas se adaptan mejor al proyecto de software que está desarrollando?
+
                 </li>
                 <li>
-                    Investigue e instale una herramienta de pruebas de software en su computador, “una de su gusto”.
+
                 </li>
                 <li>
-                    Con la herramienta instalada, realice unas pruebas básicas de su solución de software, tome capturas de pantalla del proceso y anéxelas al trabajo.
+
                 </li>
                 <li>
-                    Elabore un resumen de las pruebas que realizó.
+
                 </li>
                 <li>
-                    Se deben seguir las normas básicas de presentación de un documento escrito, es decir, el documento debe tener como mínimo una portada, introducción y conclusiones.
+
                 </li>
             </ol>
         </div>
