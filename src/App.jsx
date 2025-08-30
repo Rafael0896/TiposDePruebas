@@ -3,7 +3,7 @@
 import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/Footer/Footer.jsx'
 import TiposDePruebas from './components/TipoDePruebas/TipoDePruebas.jsx';
-import './App.css'; // Asegúrate que la ruta a tu CSS principal sea correcta
+import './App.css';
 
 function App() {
     return (

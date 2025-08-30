@@ -1,0 +1,49 @@
+/* Estilos locales solo para el componente Footer */
+.footer {
+    /* Posicionamiento y Modelo de Caja */
+    width: 100%;
+    padding: 0.3rem;
+    margin-top: 1rem; /* Espacio para separarlo del contenido superior */
+
+    /* Estilos Visuales y de Texto */
+    background-color: #04324d; /* Mismo color que la navbar para consistencia */
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.content {
+    /* Contenedor Flexible (Flexbox) */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que se apile en pantallas pequeñas */
+    gap: .5rem;
+
+    /* Modelo de Caja y Centrado */
+    max-width: 1200px; /* Limita el ancho del contenido del footer */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+.socials {
+    /* Contenedor Flexible (Flexbox) */
+    display: flex;
+    gap: 1.5rem;
+}
+
+.socialLink {
+    /* Estilos de Texto */
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+
+    /* Transiciones y Animaciones */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socialLink:hover {
+    /* Estilos de Texto */
+    color: #646cff; /* Color de acento al pasar el ratón */
+
+    /* Transiciones y Animaciones */
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+}
