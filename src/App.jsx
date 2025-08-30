@@ -1,6 +1,6 @@
 // src/App.tsx
 
-import Navbar from './components/Navbar.jsx';
+import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/Footer.jsx'
 import TiposDePruebas from './components/TipoDePruebas/TipoDePruebas.jsx';
 import './App.css'; // Asegúrate que la ruta a tu CSS principal sea correcta
