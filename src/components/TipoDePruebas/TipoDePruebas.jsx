@@ -147,26 +147,6 @@ const TipoDePruebas = () => {
                 <li>Pruebas de Accesibilidad: Garantizan usabilidad para personas con discapacidades.</li>
                 <li>Pruebas de Localización: Verifican adaptación a diferentes idiomas y culturas.</li>
             </ul>
-
-            {/* Actividades */}
-            <h2 className={styles.sectionTitle}>Actividades</h2>
-            <ol>
-                <li>
-
-                </li>
-                <li>
-
-                </li>
-                <li>
-
-                </li>
-                <li>
-
-                </li>
-                <li>
-
-                </li>
-            </ol>
         </div>
     );
 };
