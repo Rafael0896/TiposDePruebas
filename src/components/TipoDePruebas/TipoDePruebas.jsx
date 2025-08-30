@@ -25,8 +25,12 @@ const TipoDePruebas = () => {
                 <li>
                     <b>Pruebas Unitarias</b>
                     <ul>
-                        <li>Características: Prueban componentes individuales (funciones, métodos, clases) de forma aislada.</li>
-                        <li>Beneficios: Rápidas de ejecutar, fácil localización de errores, bajo costo de mantenimiento.</li>
+                        <li>Características: Prueban componentes individuales (funciones, métodos, clases) de forma
+                            aislada.
+                        </li>
+                        <li>Beneficios: Rápidas de ejecutar, fácil localización de errores, bajo costo de
+                            mantenimiento.
+                        </li>
                         <li>Ejemplo: Probar una función que calcula el IVA de un producto.</li>
                     </ul>
                 </li>
@@ -50,7 +54,21 @@ const TipoDePruebas = () => {
                     <b>Pruebas de Aceptación</b>
                     <ul>
                         <li>Características: Verifican que el sistema cumple con los requisitos del negocio.</li>
-                        <li>Beneficios: Garantizan satisfacción del usuario final, validación de criterios de aceptación.</li>
+                        <li>Beneficios: Garantizan satisfacción del usuario final, validación de criterios de
+                            aceptación.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Pruebas de Estrés (STRESS TESTING)</b>
+                    <ul>
+                        <li>Características: Las pruebas de estrés son un tipo de pruebas diseñadas para garantizar la
+                            solidez y resistencia de las aplicaciones. Pone a prueba el software en condiciones
+                            extremas, llevándolo al límite y más allá.
+                        </li>
+                        <li>Beneficios: RLas pruebas de estrés ayudan a identificar cuellos de botella y limitaciones de
+                            rendimiento en un sistema de software sometido a cargas extremas
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -88,7 +106,7 @@ const TipoDePruebas = () => {
             <ul>
                 <li>
                     <b>Pruebas Funcionales</b>: Verifican que el software hace lo que debe hacer.
-                    <br />Tipos: Smoke testing, sanity testing, pruebas de regresión.
+                    <br/>Tipos: Smoke testing, sanity testing, pruebas de regresión.
                 </li>
                 <li>
                     <b>Pruebas No Funcionales</b>
@@ -147,6 +165,123 @@ const TipoDePruebas = () => {
                 <li>Pruebas de Accesibilidad: Garantizan usabilidad para personas con discapacidades.</li>
                 <li>Pruebas de Localización: Verifican adaptación a diferentes idiomas y culturas.</li>
             </ul>
+
+            <h2>Justificación de la Selección</h2>
+
+            <h2>¿Por qué Pruebas Unitarias?</h2>
+
+            <h3>1. Base Fundamental de Calidad:</h3>
+            <ul>
+                <li>
+                    <b>Pruebas Unitarias</b>
+                    <ul>
+                        <li>Características: Prueban componentes individuales (funciones, métodos, clases) de forma
+                            aislada.
+                        </li>
+                        <li>Beneficios: Rápidas de ejecutar, fácil localización de errores, bajo costo de
+                            mantenimiento.
+                        </li>
+                        <li>Ejemplo: Probar una función que calcula el IVA de un producto.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>2. Desarrollo Eficiente:</h3>
+            <ul>
+                <li>Facilitan el <b>refactoring seguro</b> del código</li>
+                <li>Sirven como <b>documentación viva</b> del comportamiento esperado</li>
+                <li>Proporcionan <b>confianza</b> para hacer cambios sin romper funcionalidad existente</li>
+            </ul>
+
+            <h3>3. ROI Inmediato:</h3>
+            <ul>
+                <li><b>Bajo costo de implementación</b> y mantenimiento</li>
+                <li><b>Alta frecuencia de ejecución</b> (en cada commit/build)</li>
+                <li><b>Feedback inmediato</b> para desarrolladores</li>
+            </ul>
+
+            <h2>¿Por qué Pruebas de Estrés?</h2>
+
+            <h3>1. Validación Crítica de Rendimiento:</h3>
+            <ul>
+                <li>
+                    <b>Pruebas de Estrés (STRESS TESTING)</b>
+                    <ul>
+                        <li>Características: Las pruebas de estrés son un tipo de pruebas diseñadas para garantizar la
+                            solidez y resistencia de las aplicaciones. Pone a prueba el software en condiciones
+                            extremas, llevándolo al límite y más allá.
+                        </li>
+                        <li>Beneficios: Las pruebas de estrés ayudan a identificar cuellos de botella y limitaciones de
+                            rendimiento en un sistema de software sometido a cargas extremas
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>2. Preparación para Producción:</h3>
+            <ul>
+                <li>Las pruebas de estrés deben realizarse <b>antes de poner el software en producción</b></li>
+                <li>Identifican <b>posibles problemas y cuellos de botella</b></li>
+                <li>Evitan <b>fallos inesperados y la degradación del rendimiento</b></li>
+            </ul>
+
+            <h3>3. Identificación de Puntos Críticos:</h3>
+            <ul>
+                <li>Ayudan a <b>identificar cuellos de botella y limitaciones de rendimiento</b></li>
+                <li><b>Garantizar que el sistema siga siendo fiable y robusto</b> incluso bajo cargas de usuarios
+                    pesadas
+                </li>
+            </ul>
+
+            <h2>SINERGIA ENTRE AMBOS TIPOS</h2>
+
+            <h3>Enfoque Complementario:</h3>
+
+            <h4>Pruebas Unitarias (Micro-nivel):</h4>
+            <ul>
+                <li>Aseguran que cada pieza funciona correctamente</li>
+                <li>Validan lógica de negocio específica</li>
+                <li>Detectan errores de implementación</li>
+            </ul>
+
+            <h4>Pruebas de Estrés (Macro-nivel):</h4>
+            <ul>
+                <li>Validan comportamiento del sistema completo</li>
+                <li>Identifican limitaciones de escalabilidad</li>
+                <li>Evalúan estabilidad bajo presión</li>
+            </ul>
+
+            <h3>Cobertura Integral:</h3>
+            <p>Esta combinación permite:</p>
+            <ol>
+                <li><b>Calidad interna</b> → Pruebas Unitarias</li>
+                <li><b>Rendimiento externo</b> → Pruebas de Estrés</li>
+                <li><b>Confianza total</b> → Desde componente hasta sistema completo</li>
+            </ol>
+
+            <h2>RESPUESTA ESTRUCTURADA PARA EL PROYECTO</h2>
+
+            <blockquote>
+                <p><b>"Seleccioné Pruebas Unitarias y Pruebas de Estrés por las siguientes razones estratégicas:</b></p>
+
+                <p><b>PRUEBAS UNITARIAS:</b><br/>
+                    - Proporcionan la base fundamental de calidad, validando cada componente individualmente con bajo
+                    costo y alta frecuencia de ejecución<br/>
+                    - Permiten detección temprana de errores cuando el costo de corrección es mínimo<br/>
+                    - Facilitan el desarrollo ágil con refactoring seguro y feedback inmediato</p>
+
+                <p><b>PRUEBAS DE ESTRÉS:</b><br/>
+                    - Son críticas para validar que el sistema puede operar bajo condiciones extremas antes del
+                    despliegue a producción<br/>
+                    - Identifican cuellos de botella y limitaciones de rendimiento que podrían causar fallos inesperados
+                    en el mundo real<br/>
+                    - Garantizan la escalabilidad y robustez del sistema completo</p>
+
+                <p><b>SINERGIA:</b><br/>
+                    Esta combinación me permite asegurar tanto la calidad a nivel de componente (unitarias) como la
+                    estabilidad del sistema completo (estrés), proporcionando cobertura integral desde el desarrollo
+                    hasta la preparación para producción."</p>
+            </blockquote>
         </div>
     );
 };
