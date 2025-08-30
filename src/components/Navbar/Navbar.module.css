@@ -1,0 +1,61 @@
+/* Estilos locales solo para el componente Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(36, 36, 36, 0.8); /* Fondo semi-transparente */
+    backdrop-filter: blur(10px); /* Efecto "glassmorphism" */
+    border-bottom: 1px solid #444;
+    position: sticky; /* Fija el navbar en la parte superior */
+    top: 0;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no aumente el ancho */
+    z-index: 1000; /* Se asegura que esté por encima de otro contenido */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #646cff; /* Usando el color de acento principal */
+    text-decoration: none;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Espacio entre los enlaces */
+    margin: 0;
+    padding: 0;
+}
+
+.links a {
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* Efecto de subrayado al pasar el ratón */
+.links a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #646cff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+.links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
