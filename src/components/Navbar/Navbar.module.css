@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: rgba(36, 36, 36, 0.8); /* Fondo semi-transparente */
+    background-color: #04324d; /* Mismo color que la navbar para consistencia */
     backdrop-filter: blur(10px); /* Efecto "glassmorphism" */
     border-bottom: 1px solid #444;
     position: sticky; /* Fija el navbar en la parte superior */
