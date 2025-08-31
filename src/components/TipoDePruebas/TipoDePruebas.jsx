@@ -233,7 +233,7 @@ const TipoDePruebas = () => {
                 </li>
             </ul>
 
-            <h2>SINERGIA ENTRE AMBOS TIPOS</h2>
+            <h2>Sinergia Entre Ambos Tipos</h2>
 
             <h3>Enfoque Complementario:</h3>
 
@@ -259,25 +259,25 @@ const TipoDePruebas = () => {
                 <li><b>Confianza total</b> → Desde componente hasta sistema completo</li>
             </ol>
 
-            <h2>RESPUESTA ESTRUCTURADA PARA EL PROYECTO</h2>
+            <h2>Respuesta Estructurada Para El Proyecto</h2>
 
             <blockquote>
                 <p><b>"Seleccioné Pruebas Unitarias y Pruebas de Estrés por las siguientes razones estratégicas:</b></p>
 
-                <p><b>PRUEBAS UNITARIAS:</b><br/>
+                <p><b>Pruebas Unitarias:</b><br/>
                     - Proporcionan la base fundamental de calidad, validando cada componente individualmente con bajo
                     costo y alta frecuencia de ejecución<br/>
                     - Permiten detección temprana de errores cuando el costo de corrección es mínimo<br/>
                     - Facilitan el desarrollo ágil con refactoring seguro y feedback inmediato</p>
 
-                <p><b>PRUEBAS DE ESTRÉS:</b><br/>
+                <p><b>Pruebas De Estrés:</b><br/>
                     - Son críticas para validar que el sistema puede operar bajo condiciones extremas antes del
                     despliegue a producción<br/>
                     - Identifican cuellos de botella y limitaciones de rendimiento que podrían causar fallos inesperados
                     en el mundo real<br/>
                     - Garantizan la escalabilidad y robustez del sistema completo</p>
 
-                <p><b>SINERGIA:</b><br/>
+                <p><b>Sinergia:</b><br/>
                     Esta combinación me permite asegurar tanto la calidad a nivel de componente (unitarias) como la
                     estabilidad del sistema completo (estrés), proporcionando cobertura integral desde el desarrollo
                     hasta la preparación para producción."</p>
