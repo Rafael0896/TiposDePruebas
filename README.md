@@ -1,12 +1,102 @@
-# React + Vite
+# Tipos de Pruebas de Software 🧪
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto tiene como objetivo mostrar los diferentes **tipos de pruebas de software**, explicando sus características, beneficios y ejemplos prácticos.
 
-Currently, two official plugins are available:
+## 📌 Contenido del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Explicación de los principales tipos de pruebas de software.
+- Ejemplos implementados en el código con React + Vite.
+- Imágenes ilustrativas.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS Modules**
+
+## 🔍 Tipos de Pruebas Documentadas
+
+### ✅ Pruebas Unitarias
+
+Se enfocan en validar el correcto funcionamiento de **unidades pequeñas del código** como funciones o componentes.
+
+📷 *Espacio para imagen de prueba unitaria*  
+`![Prueba Unitaria](./public/imagen-prueba-unitaria.png)`
+
+---
+
+### 🔗 Pruebas de Integración
+
+Validan que los **módulos del sistema funcionen en conjunto** correctamente.
+
+📷 *Espacio para imagen de prueba de integración*  
+`![Prueba de Integración](./public/imagen-prueba-integracion.png)`
+
+---
+
+### 🌐 Pruebas de Sistema
+
+Evalúan el sistema completo asegurando que cumpla con los **requerimientos funcionales**.
+
+📷 *Espacio para imagen de prueba de sistema*  
+`![Prueba de Sistema](./public/imagen-prueba-sistema.png)`
+
+---
+
+### 👥 Pruebas de Aceptación
+
+Confirman que el software cumple con las **expectativas del usuario final**.
+
+📷 *Espacio para imagen de prueba de aceptación*  
+`![Prueba de Aceptación](./public/imagen-prueba-aceptacion.png)`
+
+---
+
+### ⚡ Otras Pruebas Consideradas
+
+- **Pruebas de Rendimiento**
+- **Pruebas de Seguridad**
+- **Pruebas de Usabilidad**
+
+📷 *Espacio para imagen de pruebas adicionales*  
+`![Prueba Extra](./public/imagen-prueba-extra.png)`
+
+---
+
+## 📂 Estructura del Proyecto
+
+```
+TiposDePruebas-main/
+├── public/
+│   ├── pruebas-de-software.png
+│   └── (Aquí puedes añadir las imágenes de cada prueba)
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── ...
+└── README.md
+```
+
+## ▶️ Ejecución del Proyecto
+
+1. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+
+2. Ejecutar en modo desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+3. Abrir en el navegador:
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## ✨ Contribución
+
+Si deseas aportar más ejemplos de pruebas, crea un **pull request** con tu propuesta.
