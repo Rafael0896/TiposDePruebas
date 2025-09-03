@@ -30,26 +30,17 @@ Se enfocan en validar el correcto funcionamiento de **unidades pequeñas del có
 
 Validan que los **módulos del sistema funcionen en conjunto** correctamente.
 
-📷 *Espacio para imagen de prueba de integración*  
-`![Prueba de Integración](./public/imagen-prueba-integracion.png)`
-
 ---
 
 ### 🌐 Pruebas de Sistema
 
 Evalúan el sistema completo asegurando que cumpla con los **requerimientos funcionales**.
 
-📷 *Espacio para imagen de prueba de sistema*  
-`![Prueba de Sistema](./public/imagen-prueba-sistema.png)`
-
 ---
 
 ### 👥 Pruebas de Aceptación
 
 Confirman que el software cumple con las **expectativas del usuario final**.
-
-📷 *Espacio para imagen de prueba de aceptación*  
-`![Prueba de Aceptación](./public/imagen-prueba-aceptacion.png)`
 
 ---
 
@@ -59,8 +50,6 @@ Confirman que el software cumple con las **expectativas del usuario final**.
 - **Pruebas de Seguridad**
 - **Pruebas de Usabilidad**
 
-📷 *Espacio para imagen de pruebas adicionales*  
-`![Prueba Extra](./public/imagen-prueba-extra.png)`
 
 ---
 
