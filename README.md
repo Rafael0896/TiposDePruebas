@@ -22,7 +22,8 @@ Este proyecto tiene como objetivo mostrar los diferentes **tipos de pruebas de s
 Se enfocan en validar el correcto funcionamiento de **unidades pequeñas del código** como funciones o componentes.
 
 📷 *Espacio para imagen de prueba unitaria*  
-`![Prueba Unitaria](./public/imagen-prueba-unitaria.png)`
+<img width="1766" height="888" alt="image" src="https://github.com/user-attachments/assets/684b4e1f-be5c-49d7-9661-e968fc4aebd3" />
+
 
 ---
 
